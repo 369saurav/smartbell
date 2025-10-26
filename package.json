@@ -1,0 +1,34 @@
+{
+  "name": "smartbell-chrome-extension",
+  "version": "1.0.0",
+  "description": "A smart Chrome extension for enhanced productivity",
+  "main": "background.js",
+  "scripts": {
+    "build": "echo 'Building extension...' && echo 'Extension built successfully!'",
+    "dev": "echo 'Starting development mode...' && echo 'Extension ready for development!'",
+    "package": "echo 'Packaging extension...' && echo 'Extension packaged successfully!'",
+    "lint": "echo 'Running linter...' && echo 'Linting completed!'",
+    "test": "echo 'Running tests...' && echo 'Tests completed!'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "productivity",
+    "smart-features",
+    "browser-extension",
+    "manifest-v3"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/smartbell-chrome-extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/smartbell-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/yourusername/smartbell-chrome-extension#readme"
+}

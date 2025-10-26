@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartBell</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🔔 SmartBell</h1>
+            <p class="subtitle">Your productivity companion</p>
+        </header>
+        
+        <main class="main-content">
+            <div class="feature-section">
+                <button id="toggleFeature" class="feature-btn">
+                    <span class="btn-icon">⚡</span>
+                    <span class="btn-text">Enable Smart Features</span>
+                </button>
+            </div>
+            
+            <div class="stats-section">
+                <div class="stat-item">
+                    <span class="stat-number" id="pageCount">0</span>
+                    <span class="stat-label">Pages Enhanced</span>
+                </div>
+            </div>
+            
+            <div class="settings-section">
+                <h3>Settings</h3>
+                <div class="setting-item">
+                    <label for="notifications">Notifications</label>
+                    <input type="checkbox" id="notifications" checked>
+                </div>
+                <div class="setting-item">
+                    <label for="autoMode">Auto Mode</label>
+                    <input type="checkbox" id="autoMode">
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <button id="openOptions" class="options-btn">⚙️ Options</button>
+        </footer>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
