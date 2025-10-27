@@ -1,34 +1,26 @@
 {
-  "name": "smartbell-chrome-extension",
+  "name": "smartbell",
   "version": "1.0.0",
-  "description": "A smart Chrome extension for enhanced productivity",
-  "main": "background.js",
+  "type": "module",
+  "description": "A smart Chrome extension",
   "scripts": {
-    "build": "echo 'Building extension...' && echo 'Extension built successfully!'",
-    "dev": "echo 'Starting development mode...' && echo 'Extension ready for development!'",
-    "package": "echo 'Packaging extension...' && echo 'Extension packaged successfully!'",
-    "lint": "echo 'Running linter...' && echo 'Linting completed!'",
-    "test": "echo 'Running tests...' && echo 'Tests completed!'"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "keywords": [
-    "chrome-extension",
-    "productivity",
-    "smart-features",
-    "browser-extension",
-    "manifest-v3"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
   "devDependencies": {
-    "eslint": "^8.0.0",
-    "prettier": "^3.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yourusername/smartbell-chrome-extension.git"
-  },
-  "bugs": {
-    "url": "https://github.com/yourusername/smartbell-chrome-extension/issues"
-  },
-  "homepage": "https://github.com/yourusername/smartbell-chrome-extension#readme"
+    "@types/chrome": "^0.0.270",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.9",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.8"
+  }
 }
